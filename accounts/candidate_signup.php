@@ -26,9 +26,9 @@
             <p>Address <textarea name="address" cols="100" rows="8" placeholder="Address"></textarea></p>
             <p>class X % <input type="text" name="tenth" maxlength="3" placeholder="Enter your Percentage as 99 instead of 99% " required></p>
             <p>class XII % <input type="text" name="twelfth" maxlength="3" placeholder="Enter your Percentage as 99 instead of 99%" required></p>
-            <p>Current CGPA <input type="text" name="cgpa" maxlength="2" placeholder="Current CGPA as 9.96 " required></p>
+            <p>Current CGPA <input type="text" name="cgpa" maxlength="2" placeholder="Current CGPA " required></p>
             <p>Course <input type="text" name="course" placeholder="MCA,B.tech..." required></p>
-            <p>Passing Year <input type="number" name="passing_year" maxlength="4" placeholder="2023" required></p>
+            <p>Passing Year <input type="number" name="passing_year" maxlength="4" placeholder="2024" required></p>
             <input type="submit">
 
         </form>

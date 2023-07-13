@@ -28,11 +28,12 @@ if ($conn->connect_error) {
     $result = $conn->query($sql);
     if ($result->num_rows > 0){
       echo"<script>window.alert('Email already registered!')</script>";
+      header("Location: ../index.html");
     }else{
       $reg_sql = "insert into candidates(fname,lname,dob,gender,email,passwd,mobile_no,address,tenth,twelfth,cgpa,course,passing_year) values('$fname','$lname','$dob','$gender','$email','$passwd',$contact_number,'$address','$twelfth','$tenth','$cgpa','$course','$passing_year')";
       mysqli_query($conn, $reg_sql);
-      echo"<script>window.alert('Registration Successful!')</script>";
-
+      echo"<script>window.alert('Registration Successful! Please login.')</script>";
+      header("Location: candidate_login.php");
     }
 }
  ?>
