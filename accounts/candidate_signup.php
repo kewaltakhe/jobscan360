@@ -3,9 +3,8 @@
         <title>Sign Up</title>
     </head>
     <body>
-    <div>
         <h1>
-            Create your account
+            Create Candidate account
 
         </h1>
         <hr>
